@@ -38,7 +38,7 @@ export const termsData = [{
     text: `<strong>(d)</strong> Free Trials. We may offer to certain qualifying users paid Subscriptions on a free trial basis (“Free Trial”) for a specified period of time. If we offer you a Free Trial, the specific terms of your Free Trial will be provided at signup. Your use of the Free Trial is subject to your compliance with such specific terms. Certain limitations may exist with respect to combining Free Trials with any other offers. Except as may otherwise be provided in the specific terms for the Free Trial offer, Free Trials are only available to users who have not previously held a paid Subscription. When you agree to a Free Trial, you are also agreeing to sign up for a paid Subscription as described above and, consequently, unless you cancel your Subscription prior to the end of your Free Trial, we (or our third party payment processor) will begin charging your payment method on a recurring annual basis for the applicable annual fee (plus any applicable taxes and other charges) at the end of the Free Trial until you cancel your Subscription. If you wish to avoid charges to your Payment Information, you must cancel your Subscription prior to midnight Eastern Time on the last day of your Free Trial period. Instructions for cancelling your subscription are stated in the section above titled “Canceling Your Subscription.”`
 },
 {
-    heading:`<strong>7. Your Content.</strong>`,
+    heading: `<strong>7. Your Content.</strong>`,
     text: `<strong>(a)</strong> Posting Content. Our Services may allow you to store or share content such as text (in posts or communications with others), files, documents, graphics, images, music, software, audio and video. Anything (other than Feedback) that you post or otherwise make available through the Services is referred to as “<strong>User Content.</strong>” Copy.AI does not claim any ownership rights in any User Content and nothing in these Terms will be deemed to restrict any rights that you may have to your User Content.`
 },
 {
@@ -57,7 +57,7 @@ export const termsData = [{
     text: `<strong>(f)</strong>  Ownership of Intellectual Property. We may make available through the Services content that is subject to intellectual property rights, including Generated Content. We and our licensors (as applicable) retain all rights to that content.`
 },
 {
-    heading:`<strong>8. Usage Requirements, General Prohibitions, and Copy.AI’s Enforcement Rights.</strong>`,
+    heading: `<strong>8. Usage Requirements, General Prohibitions, and Copy.AI’s Enforcement Rights.</strong>`,
     subHeading: `<strong> (a)</strong> You agree that you will use the Services:`,
     points: [
         `Only in a lawful manner and in compliance with all applicable laws;`,
@@ -112,22 +112,834 @@ export const termsData = [{
 },
 {
     text: `<strong>12. Warranty Disclaimers. </strong> THE SERVICES ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE AND OUR LICENSORS EXPLICITLY DISCLAIM ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. We and our licensors make no warranty that the Services will meet your requirements or be available on an uninterrupted, secure, or error-free basis. We make no warranty regarding the quality, accuracy, timeliness, truthfulness, completeness or reliability of any information or content on the Services.`
-},{
+}, {
     text: `<strong>13. Indemnity. </strong> You will indemnify and hold Copy.AI, its licensors, their affiliates, and each of their officers, directors, employees, representatives, and agents, harmless from and against any claims, disputes, demands, liabilities, damages, losses, and costs and expenses, including, without limitation, reasonable legal and accounting fees arising out of or in any way connected with (a) your access to or use of the Services, (b) your User Content, (c) your violation of these Terms, or (d) your actual or alleged infringement, misappropriation, or violation of Copy.AI’s, its licensors’, or any third party’s intellectual property or proprietary rights.`
-},{
+}, {
     heading: `<strong> 14. Limitation of Liability. </strong>`,
     text: `<strong>(a)</strong> TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEITHER COPY.AI NOR ITS SERVICE PROVIDERS AND LICENSORS INVOLVED IN CREATING, PRODUCING, OR DELIVERING THE SERVICES WILL BE LIABLE FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOST PROFITS, LOST REVENUES, LOST SAVINGS, LOST BUSINESS OPPORTUNITY, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE OR THE COST OF SUBSTITUTE SERVICES OF ANY KIND ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT COPY.AI OR ITS LICENSORS OR ITS SERVICE PROVIDERS HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A LIMITED REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.`
-},{
-  
+}, {
+
     text: `<strong>(b)</strong> TO THE MAXIMUM EXTENT PERMITTED BY THE LAW OF THE APPLICABLE JURISDICTION, IN NO EVENT WILL COPY.AI’S TOTAL LIABILITY ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES EXCEED THE AMOUNTS YOU HAVE PAID OR ARE PAYABLE BY YOU TO COPY.AI FOR USE OF THE SERVICES OR ONE HUNDRED DOLLARS ($100), IF YOU HAVE NOT HAD ANY PAYMENT OBLIGATIONS TO COPY.AI, AS APPLICABLE.`
-},{
-  
+}, {
+
     text: `<strong>(a)</strong> THE EXCLUSIONS AND LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN COPY.AI AND YOU.`
-},{
+}, {
     text: `<strong> 15. Governing Law and Forum Choice. </strong> These Terms and any action related thereto will be governed by the Federal Arbitration Act, federal arbitration law, and the laws of the State of California, without regard to its conflict of laws provisions. Except as otherwise expressly set forth in Section 16 “Dispute Resolution,” the exclusive jurisdiction for all Disputes (defined below) that you and Copy.AI are not required to arbitrate will be the state and federal courts located in Santa Clara County, and you and Copy.AI each waive any objection to jurisdiction and venue in such courts.`
 },
 {
     heading: `<strong> 16. Dispute Resolution. </strong>`,
     text: `<strong> (a) </strong> Mandatory Arbitration of Disputes. We each agree that any dispute, claim or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation or validity thereof or the use of the Services (collectively, “<strong> Disputes</strong>”) will be resolved <strong> solely by binding, individual arbitration and not in a class, representative or consolidated action or proceeding.</strong> You and Copy.AI agree that the U.S. Federal Arbitration Act governs the interpretation and enforcement of these Terms, and that you and Copy.AI are each waiving the right to a trial by jury or to participate in a class action. This arbitration provision shall survive termination of these Terms.`
+}, {
+    text: `<strong> (b) </strong> Exceptions. As limited exceptions to Section 16(a) above: (i) we both may seek to resolve a Dispute in small claims court if it qualifies; and (ii) we each retain the right to seek injunctive or other equitable relief from a court to prevent (or enjoin) the infringement or misappropriation of our intellectual property rights.`
+}, {
+    text: `<strong> (c) </strong> Conducting Arbitration and Arbitration Rules. The arbitration will be conducted by the American Arbitration Association (“<strong>AAA</strong>”) under its Consumer Arbitration Rules (the “<strong>AAA Rules</strong>”) then in effect, except as modified by these Terms. The AAA Rules are available at www.adr.org or by calling 1-800-778-7879. A party who wishes to start arbitration must submit a written Demand for Arbitration to AAA and give notice to the other party as specified in the AAA Rules. The AAA provides a form Demand for Arbitration at www.adr.org.`
+}, {
+    text: `Any arbitration hearings will take place in the county (or parish) where you live, unless we both agree to a different location. The parties agree that the arbitrator shall have exclusive authority to decide all issues relating to the interpretation, applicability, enforceability and scope of this arbitration agreement.`
+}, {
+    text: `<strong> (d) </strong> Arbitration Costs. Payment of all filing, administration and arbitrator fees will be governed by the AAA Rules, and we won’t seek to recover the administration and arbitrator fees we are responsible for paying, unless the arbitrator finds your Dispute frivolous. If we prevail in arbitration we’ll pay all of our attorneys’ fees and costs and won’t seek to recover them from you. If you prevail in arbitration you will be entitled to an award of attorneys’ fees and expenses to the extent provided under applicable law.`
+}, {
+    text: `<strong> (e) </strong> Injunctive and Declaratory Relief. Except as provided in Section 16(b) above, the arbitrator shall determine all issues of liability on the merits of any claim asserted by either party and may award declaratory or injunctive relief only in favor of the individual party seeking relief and only to the extent necessary to provide relief warranted by that party’s individual claim. To the extent that you or we prevail on a claim and seek public injunctive relief (that is, injunctive relief that has the primary purpose and effect of prohibiting unlawful acts that threaten future injury to the public), the entitlement to and extent of such relief must be litigated in a civil court of competent jurisdiction and not in arbitration. The parties agree that litigation of any issues of public injunctive relief shall be stayed pending the outcome of the merits of any individual claims in arbitration.`
+}, {
+    text: `<strong> (f) </strong> Class Action Waiver.<strong> YOU AND COPY.AI AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. </strong> Further, if the parties’ Dispute is resolved through arbitration, the arbitrator may not consolidate another person’s claims with your claims, and may not otherwise preside over any form of a representative or class proceeding. If this specific provision is found to be unenforceable, then the entirety of this Dispute Resolution section shall be null and void. `
+}, {
+    text: `<strong> (g) </strong> Severability. With the exception of any of the provisions in Section 16(f) of these Terms (“<strong> Class Action Waiver</strong> ”), if an arbitrator or court of competent jurisdiction decides that any part of these Terms is invalid or unenforceable, the other parts of these Terms will still apply.`
+}, {
+    heading: `<strong> 17. General Terms.</strong>`,
+    text: `<strong> (a)</strong> Reservation of Rights. Copy.AI and its licensors exclusively own all right, title and interest in and to the Services, including all associated intellectual property rights. Notwithstanding the foregoing, Copy.AI’s licensor, OpenAI LLC, exclusively owns all right, title and interest in and to Generated Content. Copy.AI claims no ownership of Generated Content. You acknowledge that the Services are protected by copyright, trademark, and other laws of the United States and foreign countries. You agree not to remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the Services.`,
+}, {
+    text: `<strong> (b) </strong> Entire Agreement. These Terms constitute the entire and exclusive understanding and agreement between Copy.AI and you regarding the Services, and these Terms supersede and replace all prior oral or written understandings or agreements between Copy.AI and you regarding the Services. If any provision of these Terms is held invalid or unenforceable by an arbitrator or a court of competent jurisdiction, that provision will be enforced to the maximum extent permissible and the other provisions of these Terms will remain in full force and effect. You may not assign or transfer these Terms, by operation of law or otherwise, without Copy.AI’s prior written consent. Any attempt by you to assign or transfer these Terms, without such consent, will be null. Copy.AI may freely assign or transfer these Terms without restriction. Subject to the foregoing, these Terms will bind and inure to the benefit of the parties, their successors and permitted assigns.`
+}, {
+    text: `<strong> (c) </strong> Notices. Any notices or other communications provided by Copy.AI under these Terms will be given: (i) via email; or (ii) by posting to the Services. For notices made by email, the date of receipt will be deemed the date on which such notice is transmitted.`
+}, {
+    text: `<strong> (d) </strong> Waiver of Rights. Copy.AI’s failure to enforce any right or provision of these Terms will not be considered a waiver of such right or provision. The waiver of any such right or provision will be effective only if in writing and signed by a duly authorized representative of Copy.AI. Except as expressly set forth in these Terms, the exercise by either party of any of its remedies under these Terms will be without prejudice to its other remedies under these Terms or otherwise.`
+}, {
+    text: `<strong> 18. Contact Information.  </strong>  If you have any questions about these Terms or the Services, please contact Copy.AI at:`,
+    content: `<p class='mb-2'>at:</p><p>CopyAI, Inc.</p><br/><p>Tennessee, Memphis - Colonnade<br>1661 International Dr<br>Memphis, TN 38120, USA</p><br/><p><a href="mailto:legal@copy.ai">legal@copy.ai</a></p><br/><p>571-758-3823</p><br/><p>This website uses cookies. We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.</p><br/><p>Cookies are small text files that can be used by websites to make a user's experience more efficient.</p><br/><p>The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.</p><br/><p>This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.</p><br/><p>You can at any time change or withdraw your consent from the Cookie Declaration on our website.</p><br/><p>Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.</p><br/><p>Please state your consent ID and date when you contact us regarding your consent.</p><br/><p>Your consent applies to the following domains: www.copy.ai</p><br/><p>Cookie declaration last updated on 8/29/24 by Cookiebot:</p>`
+
+}
+]
+
+
+
+
+export const jsonData = [{
+    category: "Necessary (30)",
+    description: "Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.",
+    columns: [
+        "Name",
+        "Provider",
+        "Purpose",
+        "Maximum Storage Duration",
+        "Type"
+    ],
+    rows: [
+        {
+            Name: "__cf_bm [x2]",
+            Provider: "verisoul.ai, Vimeo",
+            Purpose: "This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.",
+            "Maximum Storage Duration": "1 day",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "__mp_opt_in_out_#",
+            Provider: "scribehow.com",
+            Purpose: "Stores the user's cookie consent state for the current domain",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "__Secure-3PAPISID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "__Secure-3PSID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "__Secure-3PSIDCC",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "1 year",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_cfuvid",
+            Provider: "Vimeo",
+            Purpose: "This cookie is a part of the services provided by Cloudflare - Including load-balancing, deliverance of website content and serving DNS connection for website operators.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_gid",
+            Provider: "Google",
+            Purpose: "Registers a unique ID that is used to generate statistical data on how the visitor uses the website.",
+            "Maximum Storage Duration": "1 day",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_gf",
+            Provider: "Cookiebot",
+            Purpose: "Used to count the number of sessions to the website, necessary for optimizing CMP provider delivery.",
+            "Maximum Storage Duration": "Session",
+            Type: "Pixel Tracker"
+        },
+        {
+            Name: "_JAR",
+            Provider: "Google",
+            Purpose: "Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of dvertisements on the website.",
+            "Maximum Storage Duration": "30 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "APISID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "AWSALB",
+            Provider: "api.sirv.com",
+            Purpose: "Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user xperience.",
+            "Maximum Storage Duration": "7 days",
+            "Typ": "HTTP Cookie"
+        },
+        {
+            Name: "AWSALBCORS [x2]",
+            Provider: "api.sirv.com, cdn.sirv.com",
+            Purpose: "Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user xperience.",
+            "Maximum Storage Duration": "7 days",
+            "Typ": "HTTP Cookie"
+        },
+        {
+            Name: "CookieConsent [x2]",
+            Provider: "Cookiebot",
+            Purpose: "Stores the user's cookie consent state for the current domain",
+            "Maximum Storage Duration": "120 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "cookietest",
+            Provider: "js.sirv.com",
+            Purpose: "This cookie is used to determine if the visitor has accepted the cookies.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "datadome",
+            Provider: "dd.copy.ai",
+            Purpose: "Used in context with the website’s BotManager. The BotManager detects and mitigates bots trying to access the website.",
+            "Maximum Storage Duration": "1 year",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "HSID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_lipt",
+            Provider: "LinkedIn",
+            Purpose: "Stores the user's cookie consent state for the current domain",
+            "Maximum Storage Duration": "180 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "NID",
+            Provider: "Google",
+            Purpose: "Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.",
+            "Maximum Storage Duration": "180 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "objectId@0.0#.#.#.##@#.##",
+            Provider: "embed.sequoi.io",
+            Purpose: "Holds the user's timezone.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "omSessionId",
+            Provider: "OptinMonster",
+            Purpose: "Saves the user's screen size in order to adjust the size of images on the website.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "persist:root",
+            Provider: "scribehow.com",
+            Purpose: "This cookie stores visitor credentials in an encrypted cookie to allow the visitor to stay logged in between visits, if the isitor has accepted the 'Stay logged in' button.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "SAPISID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "sentry.offlineRequest",
+            Provider: "cdn.sentry.io",
+            Purpose: "Detects and logs potential errors on third-party provided functions on the website.",
+            "Maximum Storage Duration": "Session",
+            Type: "IndexedDB"
+        },
+        {
+            Name: "SID",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "SIDCC",
+            Provider: "Google",
+            Purpose: "Pending",
+            "Maximum Storage Duration": "1 year",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "SSID",
+            Provider: "Google",
+            Purpose: "Registers a unique ID that is used by Google to keep statistics of how the visitor uses YouTube videos across different websites.",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "wf_auth_page",
+            Provider: "www.copy.ai",
+            Purpose: "This cookie is necessary for the login function on the website.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        }
+    ]
 },
+{
+    category: "Preferences (7)",
+    description: "Preference cookies enable a website to remember information that changes the way the website behaves or looks, like your preferred language or the region that you are in.",
+    columns: [
+        "Name",
+        "Provider",
+        "Purpose",
+        "Maximum Storage Duration",
+        "Type"
+    ],
+    "rows": [
+        {
+            Name: "firebaseLocalStoragedb#firebaseLocalStorage",
+            Provider: "Google",
+            Purpose: "Facilitates the notification function within the chatbox, allowing the website’s support team to notify the user, when a reply has been given in the chatbox.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "IndexedDB"
+        },
+        {
+            Name: "intercom.intercom-state [x2]",
+            Provider: "app.copy.ai",
+            Purpose: "Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+        },
+        {
+            Name: "intercom-device-id-#",
+            Provider: "Intercom",
+            Purpose: "Sets a specific ID for the user which ensures the integrity of the website’s chat function.",
+            "Maximum Storage Duration": "271 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "intercom-id-#",
+            Provider: "Intercom",
+            Purpose: "Allows the website to recognise the visitor, in order to optimize the chat-box functionality.",
+            "Maximum Storage Duration": "271 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "intercom-session-#",
+            Provider: "Intercom",
+            Purpose: "Sets a specific ID for the user which ensures the integrity of the website’s chat function.",
+            "Maximum Storage Duration": "7 days",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "lidc",
+            Provider: "LinkedIn",
+            Purpose: "Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.",
+            "Maximum Storage Duration": "1 day",
+            Type: "HTTP Cookie"
+        }
+    ]
+},
+{
+    category: "Statistics (20)",
+    description: "Statistic cookies help website owners to understand how visitors interact with websites by collecting and reporting information anonymously.",
+    columns: [
+        "Name",
+        "Provider",
+        "Purpose",
+        "Maximum Storage Duration",
+        "Type"
+    ],
+    "rows": [
+        {
+            Name: "_ga",
+            Provider: "Google",
+            Purpose: "Registers a unique ID that is used to generate statistical data on how the visitor uses the website.",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_ga_#",
+            Provider: "Google",
+            Purpose: "Used by Google Analytics to collect data on the number of times a user has visited the website as well as dates for the first and most recent visit.",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_gat",
+            Provider: "Google",
+            Purpose: "Used by Google Analytics to throttle request rate.",
+            "Maximum Storage Duration": "1 day",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_omappvp",
+            Provider: "OptinMonster",
+            Purpose: "This cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.",
+            "Maximum Storage Duration": "11 years",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_omappvs",
+            Provider: "OptinMonster",
+            Purpose: "This cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.",
+            "Maximum Storage Duration": "1 day",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "_tdtest_f[x2]",
+            Provider: "embed.sequel.io",
+            Purpose: "Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTTP Cookie"
+        },
+        {
+            Name: "ajs_anonymous_id[x2]",
+            Provider: "Segment cdn.jsdeliver.net",
+            Purpose: "This cookie is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+        },
+        {
+            Name: "ajs_anonymous_id[x2]",
+            Provider: "Segment demo.arcade.software",
+            Purpose: "This cookie is used to identify a specific visitor - this information is used to identify the number of specific visitors on a website.",
+            "Maximum Storage Duration": "1 year",
+            Type: "HTML Local Storage"
+        },
+        {
+            Name: "amp_#",
+            Provider: "embed.sequel.io",
+            Purpose: "Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+        },
+        {
+            Name: "amplitude_unsent_#",
+            Provider: "embed.sequel.io",
+            Purpose: "Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "amplitude_unsent_identify_#",
+            Provider: "embed.sequel.io",
+            Purpose: "Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "collect",
+            Provider: "Google",
+            Purpose: "Used to send data to Google Analytics about the visitor's device and behavior. Tracks the visitor across devices and marketing channels.",
+            "Maximum Storage Duration": "Session",
+            Type: "Pixel Tracker"
+          },
+          {
+            Name: "omLastSeen",
+            Provider: "OptinMonster",
+            Purpose: "This cookie is used to determine if the visitor has visited the website before, or if it is a new visitor on the website.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "omSessionPageviews",
+            Provider: "OptinMonster",
+            Purpose: "This cookie is used to identify the frequency of visits and how long the visitor is on the website. The cookie is also used to determine how many and which subpages the visitor visits on a website – this information can be used by the website to optimize the domain and its subpages.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "omSessionStart",
+            Provider: "OptinMonster",
+            Purpose: "Sets a timestamp for when the visitor entered the website. This is used for analytical purposes on the website.",
+            "Maximum Storage Duration": "Session",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "omVisitsFirst",
+            Provider: "OptinMonster",
+            Purpose: "This cookie is used to count how many times a website has been visited by different visitors - this is done by assigning the visitor an ID, so the visitor does not get registered twice.",
+            "Maximum Storage Duration": "Persistent",
+            Type: "HTML Local Storage"
+          },
+          {
+            Name: "vuid",
+            Provider: "Vimeo",
+            Purpose: "Collects data on the user's visits to the website, such as which pages have been read.",
+            "Maximum Storage Duration": "2 years",
+            Type: "HTTP Cookie"
+          }
+    ]
+},
+{
+    category: "Marketing (40)",
+    description: "Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.",
+    columns: [
+      "Name",
+      "Provider",
+      "Purpose",
+      "Maximum Storage Duration",
+      "Type"
+    ],
+    "rows": [
+      {
+        Name: "#-#",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "_mpq_f_#",
+        Provider: "scribehow.com",
+        Purpose: "Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "_td[_x3]",
+        Provider: "demo.arcade.software, Segment",
+        Purpose: "Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "_gcl_au",
+        Provider: "Google",
+        Purpose: "Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.",
+        "Maximum Storage Duration": "3 months",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "-6248cbc39a7c7",
+        Provider: "Pending",
+        Purpose: "N/A",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "ajs_user_id [x2]",
+        Provider: "Segment cdn.jsdeliver.net",
+        Purpose: "Collects data on visitors' preferences and behaviour on the website - This information is used make content and advertisement more relevant to the specific visitor.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "ajs_user_id [x2]",
+        Provider: "demo.arcade.software",
+        Purpose: "This cookie is used to collect data on the visitor's behavior on the website - this information can be used to assign the visitor to a visitor segment, based on common preferences.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "bcookie",
+        Provider: "LinkedIn",
+        Purpose: "Used by the social networking service, LinkedIn, for tracking the use of embedded services.",
+        "Maximum Storage Duration": "1 year",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "IDE",
+        Provider: "Google",
+        Purpose: "Used by Google DoubleClick to register and report the website user's actions after viewing or clicking one of the advertiser's ads with the purpose of measuring the efficacy of an ad and to present targeted ads to the user.",
+        "Maximum Storage Duration": "400 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "iJ5q-lO9@$",
+        Provider: "YouTube",
+        Purpose: "Registers a unique ID to keep statistics of what videos from YouTube the user has seen.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "LAST_RESULT_ENTRY_KEY",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "LogsDatabaseV2V#|LogsRequestsStore",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "IndexedDB"
+      },
+      {
+        Name: "mp_#_mixpanel",
+        Provider: "scribehow.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "1 year",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "nextId",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "omFoldersSeen",
+        Provider: "OptinMonster",
+        Purpose: "Used in context with the website's pop-up questionnaires and messengering. The data is used for statistical or marketing purposes.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "pagead/1p-conversion/#",
+        Provider: "Google",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Session",
+        Type: "Pixel Tracker"
+      },
+      {
+        Name: "pagead/1p-user-list/#",
+        Provider: "Google",
+        Purpose: "Tracks if the user has shown interest in specific products or events across multiple websites and detects how the user navigates between sites. This is used for measurement of advertisement efforts and facilitates payment of referral-fees between websites.",
+        "Maximum Storage Duration": "Session",
+        Type: "Pixel Tracker"
+      },
+      {
+        Name: "pagead/landing",
+        Provider: "Google",
+        Purpose: "Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that they are shown the same advertisement.",
+        "Maximum Storage Duration": "Session",
+        Type: "Pixel Tracker"
+      },
+      {
+        Name: "pardot",
+        Provider: "go.copy.ai",
+        Purpose: "Used in content with Account-Based-Marketing (ABM). The cookie registers data such as IP addresses, time spent on the website and page requests for the visit. This is used for retargeting of multiple users coming from the same IP addresses. ABM usually facilitates B2B marketing purposes.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "remote_sid",
+        Provider: "YouTube",
+        Purpose: "Necessary for the implementation and functionality of YouTube video-content on the website.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "requests",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "ServiceWorkerLogsDatabaseV5WHealthLog",
+        Provider: "YouTube",
+        Purpose: "Necessary for the implementation and functionality of YouTube video-content on the website.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "IndexedDB"
+      },
+      {
+        Name: "test_cookie",
+        Provider: "Google",
+        Purpose: "Used to check if the user's browser supports cookies.",
+        "Maximum Storage Duration": "1 day",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "TESTCOOKIESSENAB",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "1 day",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "VISITOR_INFO1_LIVE",
+        Provider: "YouTube",
+        Purpose: "Tries to estimate the users' bandwidth on pages with integrated YouTube videos.",
+        "Maximum Storage Duration": "180 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "YSC",
+        Provider: "YouTube",
+        Purpose: "Registers a unique ID to keep statistics of what videos from YouTube the user has seen.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "yt-remote-device-id",
+        Provider: "YouTube",
+        Purpose: "Registers a unique ID to keep statistics of what videos from YouTube the user has seen.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-player-bandwidth",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "YtdbMetadatabase",
+        Provider: "YouTube",
+        Purpose: "Used to track user's interaction with embedded content.",
+        "Maximum Storage Duration": "Persistent",
+        Type: "IndexedDB"
+      },
+      {
+        Name: "yt-remote-cast-available",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-cast-installed",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video.",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-connected-devices",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-device-id",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-fast-check-period",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-session-app",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "yt-remote-session-name",
+        Provider: "YouTube",
+        Purpose: "Stores the user's video player preferences using embedded YouTube video",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      }
+    ]
+  },
+  {
+    category: "Unclassified (16)",
+    description: "Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.",
+    columns: [
+        "Name",
+        "Provider",
+        "Purpose",
+        "Maximum Storage Duration",
+        "Type"
+    ],
+    "rows": [
+      {
+        Name: "AWSALBCORS",
+        Provider: "cdn-apac01.me",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "7 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "AWSALB",
+        Provider: "cdn-apac01.me",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "7 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "ajs_anonymous_id",
+        Provider: "app.copy.ai",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "1 year",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "ajs_user_id",
+        Provider: "app.copy.ai",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "amplitude_id_*",
+        Provider: "app.copy.ai",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Session",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "AWSALB",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "7 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "AWSALBCORS",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "7 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "http_referrer",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "10 years",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "24 days",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "2 months",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "1 month",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "pf_pf_*",
+        Provider: "app.copy.ai",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Session",
+        Type: "HTTP Cookie"
+      },
+      {
+        Name: "user_uuid",
+        Provider: "api.pathfactory.com",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      },
+      {
+        Name: "vt_data",
+        Provider: "app.copy.ai",
+        Purpose: "Pending",
+        "Maximum Storage Duration": "Persistent",
+        Type: "HTML Local Storage"
+      }
+    ]
+  }
+
 ]

@@ -1,13 +1,14 @@
 import React from 'react'
-import { termsData } from './dummyData.js'
+import { jsonData, termsData } from './dummyData.js'
+import CookieTable from './CookieTable.js';
 
 
 export default function Content() {
 
     const lastUpdated = "‍Last Updated: October 12th 2023";
     return (
-        <div className="w-3/4 mx-auto p-6 bg-white shadow-lg rounded-lg">
-            <h1 className="text-2xl font-bold mb-4">Last Updated: {lastUpdated}</h1>
+        <div className="w-3/4 mx-auto p-6 bg-white rounded-lg">
+            <h1 className="text-2x2 font-bold mb-4">Last Updated: {lastUpdated}</h1>
 
             <div className="space-y-6">
                 {termsData.map((val, i) => (
@@ -21,7 +22,11 @@ export default function Content() {
                             </div>
                         ))}
                         {val?.text && <p className="text-gray-800" dangerouslySetInnerHTML={{ __html: val?.text }} />}
+                        {val?.content && <p className="text-gray-800" dangerouslySetInnerHTML={{ __html: val?.content }} />}
                     </section>
+                ))}
+                {jsonData.length && jsonData?.map((val) => (
+                    <CookieTable category={val.category} description={val.description} columns={val.columns} rows={val.rows} />
                 ))}
             </div>
         </div>

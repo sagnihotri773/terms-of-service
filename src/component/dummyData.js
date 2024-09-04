@@ -57,7 +57,77 @@ export const termsData = [{
     text: `<strong>(f)</strong>  Ownership of Intellectual Property. We may make available through the Services content that is subject to intellectual property rights, including Generated Content. We and our licensors (as applicable) retain all rights to that content.`
 },
 {
-    heading:`<strong>8. Usage Requirements, General Prohibitions, and Copy.AI’s Enforcement Rights.`,
-    text: `<strong>(a)</strong> Posting Content. Our Services may allow you to store or share content such as text (in posts or communications with others), files, documents, graphics, images, music, software, audio and video. Anything (other than Feedback) that you post or otherwise make available through the Services is referred to as “<strong>User Content.</strong>” Copy.AI does not claim any ownership rights in any User Content and nothing in these Terms will be deemed to restrict any rights that you may have to your User Content.`
+    heading:`<strong>8. Usage Requirements, General Prohibitions, and Copy.AI’s Enforcement Rights.</strong>`,
+    subHeading: `<strong> (a)</strong> You agree that you will use the Services:`,
+    points: [
+        `Only in a lawful manner and in compliance with all applicable laws;`,
+        `In accordance with the Terms, the license granted in Section 7(e), and any documentation, usage guidelines, parameters, and other requirements provided to you by Copy.AI or its licensors, as may be modified by Copy.AI or its licensors from time to time;`,
+        `In a manner that does not infringe, misappropriate, or otherwise violate any of Copy.AI’s or its licensors’ rights or those of any other person or entity;`,
+        `As it relates to Generated Content, in a manner that is consistent with the OpenAI mission and Charter, which is incorporated herein by reference, as determined by OpenAI in its sole discretion;`,
+        `In a manner that does not violate these Terms, any agreement between you and anyone else or our or a third party’s rights; and`,
+        `In compliance with, and you will not attempt to circumvent, any call rate limits or other restrictions that may be established by Copy.AI or its licensors from time to time.`,
+    ],
+    text: `<br/>You further agree that you will make reasonable efforts to reduce the likelihood, severity, and scale of any societal harm caused by your use of the Services (including the use and sharing of Generated Content) by following the OpenAI API Usage Guidelines. Copy.AI and OpenAI may request information from you regarding your efforts to reduce safety risks, and you agree to provide such information.  Such information may be used to assess compliance with these Terms as well as to inform improvements to the Services (including any components thereof).`
+},
+{
+    subHeading: `<strong> (b)</strong> You agree not to do any of the following:`,
+    points: [
+        `Post, upload, publish, submit or transmit any User Content that: (i) infringes, misappropriates or violates a third party’s patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability; (iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive; (v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) is violent or threatening or promotes violence or actions that are threatening to any person or entity; or (vii) promotes illegal or harmful activities or substances;`,
+        `Distribute, sell, lend, transfer or grant any rights in or to any or all of the Services, (except for Generated Content as permitted under this Agreement);`,
+        `Create any software that functions substantially the same as the Services (including any component thereof) and offer it to third parties;`,
+        `Modify, alter, tamper with, repair or otherwise create derivative works (except as permitted by Section 7(e)) of the Services, or attempt to do so;`,
+        `Use the Services in connection with any spyware, malware, virus, worm, trojan horse, or other malicious or harmful code, or any software application not expressly and knowingly authorized by users prior to being downloaded or installed on their computer or other electronic device;`,
+        `Use the Services to discover any underlying components of Copy.AI’s or its licensors’ models, algorithms, and systems, such as exfiltrating the weights of any of Copy.AI’s or its licensors’ models by cloning via logits;`,
+        `Remove, obscure, or alter any notice, including any notice of intellectual property right appearing on or contained within the Services (including any component thereof);`,
+        `Interfere or attempt to interfere in any manner with the functionality or proper working of the Services (including any component thereof);`,
+        `Use, display, mirror or frame the Services or any individual element within the Services, Copy.AI’s name, any Copy.AI trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without Copy.AI’s express written consent;`,
+        `Access, tamper with, or use non-public areas of the Services, Copy.AI’s computer systems, or the technical delivery systems of Copy.AI’s providers;`,
+        `Attempt to probe, scan or test the vulnerability of any Copy.AI system or network or breach any security or authentication measures;`,
+        `Avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by Copy.AI or any of Copy.AI’s providers or any other third party (including another user) to protect the Services;`,
+        `Attempt to access or search the Services or download content from the Services using any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents provided by Copy.AI;`,
+        `Use web scraping, web harvesting, or web data extraction methods to extract data from the Services (including Generated Content), or Copy.AI’s, its licensors’, and their affiliates’ software, models, or systems.`,
+        `Send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or other form of solicitation;`,
+        `Use any meta tags or other hidden text or metadata utilizing a Copy.AI trademark, logo URL or product name without Copy.AI’s express written consent;`,
+        `Use the Services, or any portion thereof, for any commercial purpose or for the benefit of any third party or in any manner not permitted by these Terms;`,
+        `Forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in any way use the Services to send altered, deceptive or false source-identifying information;`,
+        `Decipher, decompile, disassemble, reverse assemble, reverse compile, decompile, translate, or reverse engineer any component or software used to provide the Services, discover the source code of any component of the Services, or attempt to do any of the foregoing;`,
+        `Interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, or mail-bombing the Services;`,
+        `Collect or store any personally identifiable information from the Services from other users of the Services without their express permission;`,
+        `Impersonate or misrepresent your affiliation with any person or entity;`,
+        `Provide or upload any information to the Services that is “Protected Health Information” as defined under the Health Insurance Portability and Accountability Act;`,
+        `Use the Services in a way that causes societal harm including, but not limited to, (i) misleading end users that any Generated Content was human-generated for generative use cases that do not involve a human in the loop, (ii) generating spam, and (iii) generating content for dissemination in electoral campaigns;`,
+        `Use the Services in a way that violates any applicable law or regulation including, but not limited to, (i) illegal activities such as child pornography, gambling, piracy, violating copyright, trademark or other intellectual property laws, (ii) accessing or authorizing anyone to access the Services from an embargoed country as prohibited by the United States government, and (iii) threating, stalking, defaming, defrauding, degrading, victimizing, or intimidating anyone for any reason; and`,
+        `Encourage or enable any other individual to do any of the foregoing.`,
+    ],
+    text: `<br/>Copy.AI is not obligated to monitor access to or use of the Services or to review or edit any content. However, we have the right to do so for the purpose of operating the Services, to ensure compliance with these Terms and to comply with applicable law or other legal requirements. We reserve the right, but are not obligated, to remove or disable access to any content, including User Content, at any time and without notice, including, but not limited to, if we, at our sole discretion, consider it objectionable or in violation of these Terms. We have the right to investigate violations of these Terms or conduct that affects the Services. We may also consult and cooperate with law enforcement authorities to prosecute users who violate the law.`
+},
+{
+    text: `<strong>9. DMCA/Copyright Policy. </strong> Copy.AI respects copyright law and expects its users to do the same. It is Copy.AI’s policy to terminate in appropriate circumstances account holders who repeatedly infringe or are believed to be repeatedly infringing the rights of copyright holders. Please see Copy.AI’s Copyright Policy at copy.ai/copyright-policy, for further information.`
+},
+{
+    text: `<strong>10. Links to Third Party Websites or Resources. </strong> The Services may allow you to access third-party websites or other resources. We provide access only as a convenience and are not responsible for the content, products or services on or available from those resources or links displayed on such websites. You acknowledge sole responsibility for and assume all risk arising from, your use of any third-party resources.`
+},
+{
+    text: `<strong>11. Termination. </strong> We may suspend or terminate your access to and use of the Services, including suspending access to or terminating your account, at our sole discretion, at any time and without notice to you. You may cancel your account at any time by sending us an email at cancel@copy.ai. Upon any termination, discontinuation or cancellation of the Services or your account, the following Sections will survive: 6(a), 6(b), 6(c) (only for payments due and owing to Copy.AI prior to the termination), 6(d), 7(b), 7(c), 7(e), 7(f), 8, 9, 11, 12, 13, 14, 15, 16 and 17.`
+},
+{
+    text: `<strong>12. Warranty Disclaimers. </strong> THE SERVICES ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND. WITHOUT LIMITING THE FOREGOING, WE AND OUR LICENSORS EXPLICITLY DISCLAIM ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. We and our licensors make no warranty that the Services will meet your requirements or be available on an uninterrupted, secure, or error-free basis. We make no warranty regarding the quality, accuracy, timeliness, truthfulness, completeness or reliability of any information or content on the Services.`
+},{
+    text: `<strong>13. Indemnity. </strong> You will indemnify and hold Copy.AI, its licensors, their affiliates, and each of their officers, directors, employees, representatives, and agents, harmless from and against any claims, disputes, demands, liabilities, damages, losses, and costs and expenses, including, without limitation, reasonable legal and accounting fees arising out of or in any way connected with (a) your access to or use of the Services, (b) your User Content, (c) your violation of these Terms, or (d) your actual or alleged infringement, misappropriation, or violation of Copy.AI’s, its licensors’, or any third party’s intellectual property or proprietary rights.`
+},{
+    heading: `<strong> 14. Limitation of Liability. </strong>`,
+    text: `<strong>(a)</strong> TO THE MAXIMUM EXTENT PERMITTED BY LAW, NEITHER COPY.AI NOR ITS SERVICE PROVIDERS AND LICENSORS INVOLVED IN CREATING, PRODUCING, OR DELIVERING THE SERVICES WILL BE LIABLE FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOST PROFITS, LOST REVENUES, LOST SAVINGS, LOST BUSINESS OPPORTUNITY, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE OR THE COST OF SUBSTITUTE SERVICES OF ANY KIND ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR ANY OTHER LEGAL THEORY, AND WHETHER OR NOT COPY.AI OR ITS LICENSORS OR ITS SERVICE PROVIDERS HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE, EVEN IF A LIMITED REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.`
+},{
+  
+    text: `<strong>(b)</strong> TO THE MAXIMUM EXTENT PERMITTED BY THE LAW OF THE APPLICABLE JURISDICTION, IN NO EVENT WILL COPY.AI’S TOTAL LIABILITY ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE THE SERVICES EXCEED THE AMOUNTS YOU HAVE PAID OR ARE PAYABLE BY YOU TO COPY.AI FOR USE OF THE SERVICES OR ONE HUNDRED DOLLARS ($100), IF YOU HAVE NOT HAD ANY PAYMENT OBLIGATIONS TO COPY.AI, AS APPLICABLE.`
+},{
+  
+    text: `<strong>(a)</strong> THE EXCLUSIONS AND LIMITATIONS OF DAMAGES SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN COPY.AI AND YOU.`
+},{
+    text: `<strong> 15. Governing Law and Forum Choice. </strong> These Terms and any action related thereto will be governed by the Federal Arbitration Act, federal arbitration law, and the laws of the State of California, without regard to its conflict of laws provisions. Except as otherwise expressly set forth in Section 16 “Dispute Resolution,” the exclusive jurisdiction for all Disputes (defined below) that you and Copy.AI are not required to arbitrate will be the state and federal courts located in Santa Clara County, and you and Copy.AI each waive any objection to jurisdiction and venue in such courts.`
+},
+{
+    heading: `<strong> 16. Dispute Resolution. </strong>`,
+    text: `<strong> (a) </strong> Mandatory Arbitration of Disputes. We each agree that any dispute, claim or controversy arising out of or relating to these Terms or the breach, termination, enforcement, interpretation or validity thereof or the use of the Services (collectively, “<strong> Disputes</strong>”) will be resolved <strong> solely by binding, individual arbitration and not in a class, representative or consolidated action or proceeding.</strong> You and Copy.AI agree that the U.S. Federal Arbitration Act governs the interpretation and enforcement of these Terms, and that you and Copy.AI are each waiving the right to a trial by jury or to participate in a class action. This arbitration provision shall survive termination of these Terms.`
 },
 ]

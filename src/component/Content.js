@@ -7,7 +7,7 @@ export default function Content() {
 
     const lastUpdated = "‍Last Updated: October 12th 2023";
     return (
-        <div className="w-3/4 mx-auto p-6 bg-white rounded-lg">
+        <div className="w-3/4 mx-auto bg-white rounded-lg">
             <h1 className="text-2x2 font-bold mb-4">Last Updated: {lastUpdated}</h1>
 
             <div className="space-y-6">

@@ -5,6 +5,7 @@ const CookieTable = ({ category, description, columns, rows }) => {
         <div className="container mx-auto py-4 "  style={{ border: "1px solid black"}}>
             <h2 className="font-semibold text-lg px-4 mb-2">{category}</h2>
             <p className="text-sm text-gray-600 mb-4 px-4">{description}</p>
+            <div className="overflow-x-auto">
             <table className="min-w-full table-auto w-auto max-w-screen-lg">
                 <thead 
                 // className="bg-gray-100"
@@ -29,6 +30,7 @@ const CookieTable = ({ category, description, columns, rows }) => {
                     ))}
                 </tbody>
             </table>
+            </div>
         </div>
     );
 };
